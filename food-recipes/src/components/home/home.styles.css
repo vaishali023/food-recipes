@@ -64,8 +64,8 @@ h1{
 }
 .recipe-list {
     list-style-type: none;
-
 }
+
 .recipe-container {
     display: flex;
     flex-direction: column;
