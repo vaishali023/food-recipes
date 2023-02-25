@@ -39,7 +39,8 @@ h1{
 #home input{
     height: 40px;
     width: 350px;
-   
+   font-size: 16px;
+   padding:4px;
 }
 .searchBox{
     height: 40px;
@@ -49,6 +50,13 @@ h1{
     margin-left: 10px;
     font-size: 16px;
     padding: 10px;
+}
+.food-list{
+    width: 85vw;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
 }
 .random-recipes {
     margin-top: 50px;

@@ -87,7 +87,7 @@ const Home = () => {
           <button onClick={handleClick}>Search</button>
         </div>
         {!toggle ? (
-          <ul>
+          <ul className="food-list">
             {recipelist.map((recipe) => (
               <li
                 className="recipe-list"
@@ -105,7 +105,7 @@ const Home = () => {
           </ul>
         ) : (
           <div className="random-recipes">
-            <ul>
+            <ul className="food-list">
               {random.map((recipe) => (
                 <li
                   onClick={() => {
